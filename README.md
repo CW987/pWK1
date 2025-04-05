@@ -39,9 +39,11 @@ What errors or bugs did you encounter while completing your assignment? How did 
 What went really well and what could have gone better?
 
 ---
+Goal for these projects is essentially to revise, improve problem solving, hit all the stretch goals and add in a few of my own. 
 
 On my autopilot set up I added app.js when it wasn't required.
 
 ## Self Set Goal
 
-- As a user I want to be able to change the language on the website to at least one other. 
+- As a user I want to be able to change the language on the website to at least one other.
+- As a user I want the header nav bar to be persisent and scroll with the page. Links should be inline and taking as little vertical space as possible.
