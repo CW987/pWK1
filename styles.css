@@ -1,11 +1,15 @@
-/* Something for smooth scrolling */
 html {
   scroll-behavior: smooth;
 }
 
-/* Hover for buttons and links */
-body {
+* {
   font: 1em sans-serif;
+}
+
+/* Hover for buttons and links */
+flexContainer {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Back to top button styles */
@@ -29,3 +33,6 @@ body {
 
 /* media query */
 /* Pics to fit media query sizes.  */
+
+
+/* ! Must have flexbox and use absolute positioning */

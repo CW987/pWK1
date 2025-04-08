@@ -12,6 +12,7 @@
     />
     <title>Voyages en Jordanie</title>
   </head>
+
   <header>
     <h1>Voyages en Jordanie</h1>
     <nav>
@@ -22,62 +23,60 @@
         <li><a href="#petra">Pétra</a></li>
         <li><a href="#monastery">Monastère</a></li>
       </ul>
-        <a href="./index.html">EN</a> /
-        <a href="./index-fr.html">FR</a>
+        <a class="langSwitch" href="./index.html">🇬🇧</a> /
+        <a class="langSwitch" href="./index-fr.html">🇫🇷</a>
     </nav>
   </header>
-  <body>
-    <!-- <h1>Body Title</h1>  -->
-    <img
+
+  <body class="flexContainer">
+    <div>
+      <img
       id="amman"
       src="./Resources/AmmanAcropolis.jpeg"
-      alt="Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie"
-    />
-    <p>
-      Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie
-    </p>
-    <img
+      alt="Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie"/>
+      <p>Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie</p>
+    </div>
+    <div>
+      <img
       id="jerash"
       src="./Resources/Jerash.jpeg"
-      alt="Les ruines de l'ancienne Jerash"
-    />
-    <p>Les ruines de l'ancienne Jerash</p>
+      alt="Les ruines de l'ancienne Jérash"/>
+      <p>Les ruines de l'ancienne Jérash</p>
+    </div>
     <img
       id="kingsRoad"
       src="./Resources/KingsRoad.jpeg"
-      alt="La Route du Roi, Jordanie. Vue vers le sud, entra Amman et Pétra"
-    />
+      alt="La Route du Roi, Jordanie. Vue vers le sud, entra Amman et Pétra"/>
     <p>La Route du Roi, Jordanie. Vue vers le sud, entra Amman et Pétra</p>
-    <img
+    <div>
+      <img
       id="petra"
       src="./Resources/Petra.jpeg"
-      alt="Temples creusés dans les falaise, Pétra, Jordanie"
-    />
-    <p>Temples creusés dans les falaise, Pétra, Jordanie</p>
-    <img
+      alt="Temples creusés dans les falaise, Pétra, Jordanie"/>
+      <p>Temples creusés dans les falaise, Pétra, Jordanie</p>
+    </div>
+    <div>
+      <img
       id="monastery"
       src="./Resources/Monastery.jpeg"
-      alt="Le monastère qui se trouve à 40 minutes de montée de Pétra"
-    />
-    <p>Le monastère qui se trouve à 40 minutes de montée de Pétra</p>
+      alt="Le monastère qui se trouve à 40 minutes de montée de Pétra"/>
+      <p>Le monastère qui se trouve à 40 minutes de montée de Pétra</p>
+    </div>
     <button class="backToTop" onclick="scrollToTop()">Retour en haut</button>
     <script>
       function scrollToTop() {
-        window.scrollTo({ top: 0, behavior: "smooth" })
-      }
+        window.scrollTo({ top: 0, behavior: "smooth" })}
     </script>
   </body>
 
-  <!--! I need to be something for background music -->
+  <!-- <audio autoplay controls src="./Resources/bymyside.mp3"></audio> -->
 
-  <footer>
-    <h6>Made by Curtis</h6>
-    <div>Images are authors own</div>
-    <a href="https://visitjordan.com/">Jordan Tourism Board</a>
-    <a href="https://www.visitpetra.jo/">Petra</a>
-    <a
-      href="https://www.lonelyplanet.com/jordan/jerash-and-the-north/jerash/attractions/roman-ruins-of-jerash/a/poi-sig/1456891/361072"
-      >Jerash</a
-    >
+  <footer>Site réalisé par Curtis</h6>
+    <div>Les images sont la propriété des auteurs</div>
+    <nav>
+      <a href="https://fr.visitjordan.com/">Jordan Tourism Board - Informations touristiques en français </a>
+      <a href="https://www.lonelyplanet.fr/destinations/moyen-orient/jordanie/petra">Pétra</a>
+      <a href="https://www.lonelyplanet.fr/destinations/moyen-orient/jordanie/jerash-irbid-et-la-vallee-du-jourdain">Jérash</a>
+    </nav>
   </footer>
 </html>
