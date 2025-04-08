@@ -1,4 +1,4 @@
-#
+# Revision for Portfolio
 
 ## User Stories
 
@@ -59,8 +59,10 @@ License code: WHHERCCYZTVR5TJX
 
 Goal for these projects is essentially to revise, improve problem solving, hit all the stretch goals and add in a few of my own.
 
-On my autopilot set up I added app.js when it wasn't required.
+On my autopilot set up I added app.js when it wasn't required. HTML structure and content was swift. Revision was needed more for CSS and Flexbox. Feel more comfortable with the concepts of Flexbox now and how to set up.
 
 Having added extensions for better markdown it has forced me to learn it more to avoid upsetting it, which for once "autocorrect" is helpful.
 
 Making changes to two index files is an extra annoyance, so I see why using dynamic text pulled from a database would make it a lot easier with only one HTML to edit.
+
+Audio was a pain free implementation but commented out for testing.
