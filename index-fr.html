@@ -23,44 +23,45 @@
         <li><a href="#petra">Pétra</a></li>
         <li><a href="#monastery">Monastère</a></li>
       </ul>
-        <a href="./index.html">EN </a> /
-        <a href="./index-fr.html">FR</a>
+        <a class="langSwitch" href="./index.html">🇬🇧</a> /
+        <a class="langSwitch" href="./index-fr.html">🇫🇷</a>
     </nav>
   </header>
 
-  <body>
-    <img
+  <body class="flexContainer">
+    <div>
+      <img
       id="amman"
       src="./Resources/AmmanAcropolis.jpeg"
-      alt="Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie"
-    />
-    <p>
-      Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie
-    </p>
-    <img
+      alt="Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie"/>
+      <p>Les ruines de l'Acropole, au cœur d'Amman, capitale de la Jordainie</p>
+    </div>
+    <div>
+      <img
       id="jerash"
       src="./Resources/Jerash.jpeg"
-      alt="Les ruines de l'ancienne Jérash"
-    />
-    <p>Les ruines de l'ancienne Jérash</p>
+      alt="Les ruines de l'ancienne Jérash"/>
+      <p>Les ruines de l'ancienne Jérash</p>
+    </div>
     <img
       id="kingsRoad"
       src="./Resources/KingsRoad.jpeg"
-      alt="La Route du Roi, Jordanie. Vue vers le sud, entra Amman et Pétra"
-    />
+      alt="La Route du Roi, Jordanie. Vue vers le sud, entra Amman et Pétra"/>
     <p>La Route du Roi, Jordanie. Vue vers le sud, entra Amman et Pétra</p>
-    <img
+    <div>
+      <img
       id="petra"
       src="./Resources/Petra.jpeg"
-      alt="Temples creusés dans les falaise, Pétra, Jordanie"
-    />
-    <p>Temples creusés dans les falaise, Pétra, Jordanie</p>
-    <img
+      alt="Temples creusés dans les falaise, Pétra, Jordanie"/>
+      <p>Temples creusés dans les falaise, Pétra, Jordanie</p>
+    </div>
+    <div>
+      <img
       id="monastery"
       src="./Resources/Monastery.jpeg"
-      alt="Le monastère qui se trouve à 40 minutes de montée de Pétra"
-    />
-    <p>Le monastère qui se trouve à 40 minutes de montée de Pétra</p>
+      alt="Le monastère qui se trouve à 40 minutes de montée de Pétra"/>
+      <p>Le monastère qui se trouve à 40 minutes de montée de Pétra</p>
+    </div>
     <button class="backToTop" onclick="scrollToTop()">Retour en haut</button>
     <script>
       function scrollToTop() {
@@ -68,7 +69,7 @@
     </script>
   </body>
 
-  <audio autoplay controls src="./bymyside.mp3"></audio>
+  <audio autoplay controls src="./Resources/bymyside.mp3"></audio>
 
   <footer>Site réalisé par Curtis</h6>
     <div>Les images sont la propriété des auteurs</div>

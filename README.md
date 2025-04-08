@@ -62,3 +62,5 @@ Goal for these projects is essentially to revise, improve problem solving, hit a
 On my autopilot set up I added app.js when it wasn't required.
 
 Having added extensions for better markdown it has forced me to learn it more to avoid upsetting it, which for once "autocorrect" is helpful.
+
+Making changes to two index files is an extra annoyance, so I see why using dynamic text pulled from a database would make it a lot easier with only one HTML to edit.

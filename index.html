@@ -23,45 +23,55 @@
         <li><a href="#petra">Petra</a></li>
         <li><a href="#monastery">Monastery</a></li>
       </ul>
-        <a href="./index.html">EN</a> /
-        <a href="./index-fr.html">FR</a>
+        <a class="langSwitch" href="./index.html">🇬🇧</a> /
+        <a class="langSwitch" href="./index-fr.html">🇫🇷</a>
     </nav>
   </header>
 
-  <body>
-    <img
+  <body class="flexContainer">
+    <div>
+      <img
       id="amman"
       src="./Resources/AmmanAcropolis.jpeg"
       alt="The ruins on the Acropolis in the centre of modern Amman, the capital of Jordan"
-    />
-    <p>
-      The ruins on the Acropolis in the centre of modern Amman, the capital of
-      Jordan
-    </p>
-    <img
+      />
+      <p>
+        The ruins on the Acropolis in the centre of modern Amman, the capital of
+        Jordan
+      </p>
+    </div>
+    <div>
+      <img
       id="jerash"
       src="./Resources/Jerash.jpeg"
       alt="The ruins of ancient Jerash, Jordan"
-    />
-    <p>The ruins of ancient Jerash, Jordan</p>
-    <img
+      />
+      <p>The ruins of ancient Jerash, Jordan</p>
+    </div>
+    <div>
+      <img
       id="kingsRoad"
       src="./Resources/KingsRoad.jpeg"
       alt="The Kings Road, Jordan. View traveling south between Amman and Petra"
-    />
-    <p>The Kings Road, Jordan. View traveling south between Amman and Petra</p>
-    <img
+      />
+      <p>The Kings Road, Jordan. View traveling south between Amman and Petra</p>
+    </div>
+    <div>
+      <img
       id="petra"
       src="./Resources/Petra.jpeg"
       alt="Temples carved into the cliffs in Petra, Jordan"
-    />
-    <p>Temples carved into the cliffs in Petra, Jordan</p>
-    <img
+      />
+      <p>Temples carved into the cliffs in Petra, Jordan</p>
+    </div>
+    <div>
+      <img
       id="monastery"
       src="./Resources/Monastery.jpeg"
       alt="The Monastery that lies a 40 min climb from Petra"
-    />
-    <p>The Monastery that lies a 40 min climb from Petra</p>
+      />
+      <p>The Monastery that lies a 40 min climb from Petra</p>
+    </div>
     <button class="backToTop" onclick="scrollToTop()">Back to Top</button>
     <script>
       function scrollToTop() {
@@ -69,16 +79,15 @@
     </script>
   </body>
 
-  <audio autoplay controls src="./bymyside.mp3"></audio>
+  <audio autoplay controls src="./Resources/bymyside.mp3"></audio>
 
   <footer>
     <h6>Made by Curtis</h6>
     <div>Images are authors own</div>
-    <a href="https://visitjordan.com/">Jordan Tourism Board</a>
-    <a href="https://www.visitpetra.jo/">Petra</a>
-    <a
-      href="https://www.lonelyplanet.com/jordan/jerash-and-the-north/jerash/attractions/roman-ruins-of-jerash/a/poi-sig/1456891/361072"
-      >Jerash</a
-    >
+    <nav>
+      <a href="https://visitjordan.com/">Jordan Tourism Board</a>
+      <a href="https://www.visitpetra.jo/">Petra</a>
+      <a href="https://www.lonelyplanet.com/jordan/jerash-and-the-north/jerash/attractions/roman-ruins-of-jerash/a/poi-sig/1456891/361072">Jerash</a>
+    </nav>
   </footer>
 </html>
