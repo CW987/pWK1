@@ -22,10 +22,10 @@
 
 ## Requirements
 
-🎯 Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that includes a <header>, <nav>, and <footer>.
+🎯 Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that includes a `<header>, <nav>, and <footer>.`
 🎯 Implement CSS absolute positioning to overlay text on an image or another element.
-🎯 Utilise CSS Flexbox to create a flexible and responsive layout, particularly in the <nav> element.
-🎯 Ensure all image elements (<img>) are correctly implemented with accurate src file paths.
+🎯 Utilise CSS Flexbox to create a flexible and responsive layout, particularly in the `<nav>` element.
+🎯 Ensure all image elements `(<img>)`are correctly implemented with accurate src file paths.
 
 ## Stretch Requirements
 
