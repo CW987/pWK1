@@ -25,7 +25,7 @@
 🎯 Ensure each section of the webpage is wrapped in the correct semantic tags, ensuring that includes a `<header>, <nav>, and <footer>.`  
 🎯 Implement CSS absolute positioning to overlay text on an image or another element.  
 🎯 Utilise CSS Flexbox to create a flexible and responsive layout, particularly in the `<nav>` element.  
-🎯 Ensure all image elements `(<img>)`are correctly implemented with accurate src file paths.  
+🎯 Ensure all image elements `<img>`are correctly implemented with accurate src file paths.  
 
 ### Stretch Requirements
 
@@ -53,6 +53,9 @@
 - What went really well and what could have gone better?
 
 ## Notes
+
+Music by Bensound.com/free-music-for-videos
+License code: WHHERCCYZTVR5TJX
 
 Goal for these projects is essentially to revise, improve problem solving, hit all the stretch goals and add in a few of my own.
 
