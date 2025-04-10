@@ -6,10 +6,22 @@ html {
   font: 1em sans-serif;
 }
 
+.header {
+  position: sticky;
+  top: 0;
+}
 /* Hover for buttons and links */
 flexContainer {
   display: flex;
   flex-direction: column;
+}
+
+.imageContainer {
+  position: relative;
+}
+
+.imageText {
+  position: left;
 }
 
 /* Back to top button styles */
