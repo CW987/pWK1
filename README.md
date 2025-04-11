@@ -49,8 +49,15 @@
 
 - Requesting feedback about a specific part of your submission.
 - What useful external sources helped you complete the assignment (e.g Youtube tutorials)?
+[w3schools text over images](https://www.w3schools.com/howto/howto_css_image_text.asp)
+  - Co-Pilot for CSS.
 - What errors or bugs did you encounter while completing your assignment? How did you solve them?
+  - Not all pictures being of the same quality for scaling.
+  - Similar issues with text over images, but this time not using images as background has helped.
+
 - What went really well and what could have gone better?
+  - Audio setup was painless.
+  - Initial layout was swift.
 
 ## Notes
 
@@ -63,6 +70,8 @@ On my autopilot set up I added app.js when it wasn't required. HTML structure an
 
 Having added extensions for better markdown it has forced me to learn it more to avoid upsetting it, which for once "autocorrect" is helpful.
 
-Making changes to two index files is an extra annoyance, so I see why using dynamic text pulled from a database would make it a lot easier with only one HTML to edit.
+Making changes to two index files is an extra annoyance, so I see why using dynamic text pulled from a database would make it a lot easier with only one HTML to edit. Found that side by side editing and with multiple cursors for typing helps a lot.
+
+Co-pilot was useful in getting better results with my CSS set up even if the results are somewhat basic.
 
 Audio was a pain free implementation but commented out for testing.

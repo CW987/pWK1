@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="./app.js"></script>
+    <link rel="stylesheet" href="./node_modules/minireset.css/minireset.css">
     <link rel="stylesheet" href="./styles.css" />
     <link
       rel="shortcut icon"
@@ -13,7 +14,7 @@
     <title>Travels in Jordan</title>
   </head>
 
-  <header>
+  <header class="header">
     <h1>Travels in Jordan</h1>
     <nav>
       <ul>
@@ -30,47 +31,50 @@
 
   <body class="flexContainer">
     <div>
-      <img
+      <img 
+      class="imageContainer"
       id="amman"
       src="./Resources/AmmanAcropolis.jpeg"
       alt="The ruins on the Acropolis in the centre of modern Amman, the capital of Jordan"
       />
-      <p>
-        The ruins on the Acropolis in the centre of modern Amman, the capital of
-        Jordan
-      </p>
+      <p class="imageText">The ruins on the Acropolis in the centre of modern Amman, the capital of
+        Jordan</p>
     </div>
     <div>
-      <img
+      <img 
+      class="imageContainer"
       id="jerash"
       src="./Resources/Jerash.jpeg"
       alt="The ruins of ancient Jerash, Jordan"
       />
-      <p>The ruins of ancient Jerash, Jordan</p>
+      <p class="imageText">The ruins of ancient Jerash, Jordan</p>
     </div>
     <div>
       <img
+      class="imageContainer"
       id="kingsRoad"
       src="./Resources/KingsRoad.jpeg"
       alt="The Kings Road, Jordan. View traveling south between Amman and Petra"
       />
-      <p>The Kings Road, Jordan. View traveling south between Amman and Petra</p>
+      <p class="imageText">The Kings Road, Jordan. View traveling south between Amman and Petra</p>
     </div>
     <div>
       <img
+      class="imageContainer"
       id="petra"
       src="./Resources/Petra.jpeg"
       alt="Temples carved into the cliffs in Petra, Jordan"
       />
-      <p>Temples carved into the cliffs in Petra, Jordan</p>
+      <p class="imageText">Temples carved into the cliffs in Petra, Jordan</p>
     </div>
     <div>
       <img
+      class="imageContainer"
       id="monastery"
       src="./Resources/Monastery.jpeg"
       alt="The Monastery that lies a 40 min climb from Petra"
       />
-      <p>The Monastery that lies a 40 min climb from Petra</p>
+      <p class="imageText">The Monastery that lies a 40 min climb from Petra</p>
     </div>
     <button class="backToTop" onclick="scrollToTop()">Back to Top</button>
     <script>
