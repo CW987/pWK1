@@ -9,40 +9,60 @@ html {
 .header {
   position: sticky;
   top: 0;
+  z-index: 1000;
+  background-color: white;
 }
 /* Hover for buttons and links */
 flexContainer {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto; 
+  height: auto;
+  overflow: hidden; /* Ensures content doesn't overflow the container */
 }
 
 /* !! The image container and text stop the header being sticky - so assume it is to do with the position being relative used for placeholder code. */
-/* 
+
 .imageContainer {
-  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .imageText {
-  position: left;
-} */
+  position: absolute;
+  bottom: 10px; /* Adjust to position the text */
+  left: 10px; /* Adjust to position the text */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem; /* Adjust font size as needed */
+  text-shadow: 1px 1px 2px black; /* Optional: adds readability */
+  z-index: 1; /* Ensures the text is above the image */
+}
 
 /* Back to top button styles */
 #back-to-top {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #333;
-  color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   display: none;
   transition: opacity 0.3s;
-}
-
-#back-to-top:hover {
-  background-color: #555;
 }
 
 /* media query */
