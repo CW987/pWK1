@@ -16,13 +16,15 @@ flexContainer {
   flex-direction: column;
 }
 
+/* !! The image container and text stop the header being sticky - so assume it is to do with the position being relative used for placeholder code. */
+/* 
 .imageContainer {
   position: relative;
 }
 
 .imageText {
   position: left;
-}
+} */
 
 /* Back to top button styles */
 #back-to-top {
